@@ -1,7 +1,6 @@
 package com.company;
 
-public enum Kart{
-    Standart,
-    Silver,
-    Gold
+public abstract class Kart{
+    public abstract double IndirimHesapla(double fiyat);
+
 }
